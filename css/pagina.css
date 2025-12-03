@@ -1,0 +1,58 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y tipografía */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #222;
+}
+
+/* Contenedor de enlaces */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Tarjetas/enlaces */
+.card {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #222;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.25s;
+}
+
+/* Hover */
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    background: #eaeaea;
+}
