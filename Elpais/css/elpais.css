@@ -107,3 +107,27 @@ html, body {
     flex: unset;
   }
 }
+
+/* Barra de menú */
+.navbar {
+  position: fixed;       /* Fija la barra arriba de la ventana */
+  top: 0;                /* En la parte superior */
+  left: 0;
+  width: 100%;           /* Ocupa todo el ancho */
+  background-color: #333333; /* Color de fondo */
+  padding: 10px 20px;    /* Espaciado interno */
+  display: flex;         /* Para alinear los enlaces en fila */
+  gap: 20px;             /* Espacio entre enlaces */
+  z-index: 1000;         /* Para que esté por encima de otros elementos */
+}
+
+/* Enlaces dentro de la barra */
+.navbar a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.navbar a:hover {
+  transform: translateX(5px);
+}
