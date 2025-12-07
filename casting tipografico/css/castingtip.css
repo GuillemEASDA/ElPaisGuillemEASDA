@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 20px 0;
+}
+
+/* Los packs de laas cajas */
+.card {
+    border: 2px dashed #d6d6d6;
+    padding: 15px 20px;
+    min-height: 260px;
+}
+
+/* Títulos */
+.armalite h2 { font-family: 'Playfair Display', serif; font-weight: 700; letter-spacing: 1px; }
+.cartoon h2 { font-family: 'Bangers', cursive; font-size: 30px; }
+.impact h2 { font-family: Montserrat, sans-serif; font-weight: 700; }
+.tuffy h2 { font-family: Montserrat, sans-serif; }
+.script h2 { font-family: 'Caveat', cursive; font-size: 30px; }
+.resins h2 { font-family: 'Playfair Display', serif; }
+.hill h2 { font-family: Montserrat, sans-serif; font-weight: 700; }
+.ugly h2 { font-family: 'Old Standard TT', serif; }
+.mono h2 { font-family: 'Roboto Mono', monospace; }
+
+/* Impact label estilo líneas negras */
+.impact {
+    background: #f7f7f7;
+}
+
+.impact-lines p {
+    background: black;
+    color: white;
+    padding: 4px 8px;
+    margin: 4px 0;
+    width: fit-content;
+    font-size: 14px;
+}
+
+/* Texto general */
+.card p {
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+/* Enlaces */
+a {
+    color: #0055ff;
+    font-weight: bold;
+    text-decoration: none;
+}
