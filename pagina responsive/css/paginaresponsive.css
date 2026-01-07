@@ -1,0 +1,147 @@
+/* RESET BÁSICO */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* CABECERA */
+.topbar{
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #000;
+}
+
+.tagline{
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* MENÚ */
+.menu{
+  overflow: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu a{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover{
+  background: #eee;
+}
+
+/* LAYOUT */
+.layout{
+  overflow: auto;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.principal{
+  float: left;
+  width: 70%;
+  padding-right: 20px;
+}
+
+.sidebar{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+  border-left: 1px solid #ccc;
+}
+
+/* TEXTO */
+.entradilla{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* IMÁGENES */
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
+.principal img{
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* FOOTER */
+.footer{
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+}
+
+/* ================= MEDIA QUERIES ================= */
+
+/* iPhone 12 vertical */
+@media only screen and (max-width: 390px){
+
+  .menu a{
+    width: 100%;
+  }
+
+  .principal,
+  .sidebar{
+    width: 100%;
+    float: none;
+    padding: 0;
+    border: none;
+  }
+
+  .topbar h1{
+    font-size: 2rem;
+  }
+}
+
+/* iPhone 12 horizontal */
+@media only screen and (min-width: 391px) and (max-width: 844px){
+
+  .menu a{
+    width: 50%;
+  }
+
+  .principal,
+  .sidebar{
+    width: 100%;
+    float: none;
+    border: none;
+  }
+}
+
+/* iPad Air */
+@media only screen and (min-width: 845px) and (max-width: 1180px){
+
+  .principal{
+    width: 65%;
+  }
+
+  .sidebar{
+    width: 35%;
+  }
+}
+
+/* Pantalla grande */
+@media only screen and (min-width: 1441px){
+
+  .topbar h1{
+    font-size: 4rem;
+  }
+}
