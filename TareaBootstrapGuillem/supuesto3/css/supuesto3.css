@@ -1,0 +1,26 @@
+/* Navegación: 4 columnas */
+.navegacion {
+    background-color: lightblue;
+    margin: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Logo: 8 columnas */
+.logo {
+    background-color: lightgray;
+    margin: 5px;
+}
+
+/* Contenido: 8 columnas, debajo del logo */
+.contenido {
+    background-color: lightgreen;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Pie: sin margen ni relleno */
+.pie {
+    background-color: lightgray;
+}
