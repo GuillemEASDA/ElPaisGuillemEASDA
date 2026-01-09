@@ -1,0 +1,36 @@
+/* Logo: 8 columnas centradas */
+.logo {
+    background-color: lightgray;
+    margin: 5px auto; /* centrado horizontal */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navegación: 4 columnas */
+.navegacion {
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Contenido: 8 columnas */
+.contenido {
+    background-color: lightgreen;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Publicidad: 4 columnas */
+.publicidad {
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Pie: 8 columnas, sin margen ni relleno */
+.pie {
+    background-color: lightgray;
+    margin: 0 auto; /* centrado horizontal */
+    padding: 10px;
+    text-align: center;
+}
