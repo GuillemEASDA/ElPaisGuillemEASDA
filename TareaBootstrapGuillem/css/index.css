@@ -1,0 +1,35 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.enlaces {
+    text-align: center;
+}
+
+.enlace {
+    display: block;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: #0d6efd;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.enlace:hover {
+    background-color: #084298;
+}
