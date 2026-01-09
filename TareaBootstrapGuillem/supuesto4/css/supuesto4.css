@@ -1,0 +1,36 @@
+/* Logo: 12 columnas, sin margen ni relleno */
+.logo {
+    background-color: lightgray;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navegación: 3 columnas */
+.navegacion {
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Contenido: 6 columnas */
+.contenido {
+    background-color: lightgreen;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Publicidad: 3 columnas */
+.publicidad {
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Pie: 12 columnas, sin margen ni relleno */
+.pie {
+    background-color: lightgray;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
