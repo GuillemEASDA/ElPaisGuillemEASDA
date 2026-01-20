@@ -37,6 +37,7 @@
     margin: 3rem auto;
     font-size: 1rem;
     line-height: 1.7;
+    color: #000;
 }
 
 /* GALERÍA */
@@ -100,3 +101,4 @@
 .nav a:hover {
     text-decoration: underline;
 }
+
