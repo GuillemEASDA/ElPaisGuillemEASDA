@@ -1,0 +1,140 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BASE */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #fff;
+    color: #111;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 4vw;
+}
+
+.header h1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.project-hero {
+    padding: 0 4vw;
+    margin-bottom: 4rem;
+}
+
+.project-hero img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    display: block;
+}
+
+.project-meta {
+    margin-top: 1.5rem;
+}
+
+.project-meta h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.project-meta p {
+    color: #777;
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+}
+
+/* =========================
+   TEXTO
+========================= */
+
+.project-text {
+    max-width: 700px;
+    padding: 0 4vw;
+    margin: 3rem auto;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.project-text p {
+    margin-bottom: 1.5rem;
+}
+
+/* =========================
+   GALERÍA
+========================= */
+
+.project-gallery {
+    padding: 0 4vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.project-gallery img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    padding: 3rem 4vw;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    .project-hero img {
+        height: 50vh;
+    }
+
+    .project-meta h2 {
+        font-size: 1.6rem;
+    }
+
+    .project-gallery {
+        grid-template-columns: 1fr;
+    }
+}
